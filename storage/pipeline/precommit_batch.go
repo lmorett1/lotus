@@ -201,7 +201,7 @@ func (b *PreCommitBatcher) maybeStartBatch(notif bool) ([]sealiface.PreCommitBat
 		return nil, xerrors.Errorf("couldn't get network version: %w", err)
 	}
 
-	// if this wasn't an user-forced batch, and we're not at/above the max batch size,
+	// if this wasn't a user-forced batch, and we're not at/above the max batch size,
 	// and we're not above the basefee threshold, don't batch yet
 	if notif && total < cfg.MaxPreCommitBatch {
 		return nil, nil

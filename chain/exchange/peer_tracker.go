@@ -78,7 +78,7 @@ func (bpt *bsPeerTracker) addPeer(p peer.ID) {
 
 const (
 	// newPeerMul is how much better than average is the new peer assumed to be
-	// less than one to encourouge trying new peers
+	// less than one to encourage trying new peers
 	newPeerMul = 0.9
 )
 
