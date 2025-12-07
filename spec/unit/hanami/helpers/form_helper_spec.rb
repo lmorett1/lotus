@@ -2565,7 +2565,7 @@ RSpec.describe Hanami::Helpers::FormHelper do
       end
     end
 
-    context "with values an structured Array of values" do
+    context "with values a structured Array of values" do
       let(:option_values) { [%w[Italy it], ["United States", "us"]] }
 
       it "renders" do

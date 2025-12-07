@@ -105,7 +105,7 @@ When adding or changing code, keep the API docs up to date. Only public API need
 
 - A concise, one-line description, in present tense form (see [Ruby’s API docs](https://docs.ruby-lang.org/en/master/) for examples).
 - Additional paragraphs of documentation as required.
-- Examples (via the `@example`) if hepful.
+- Examples (via the `@example`) if helpful.
 - `@param` and `@return` tags
 - An `@api` tag
 - A `@since` tag, formatted as `@since x.x.x` for new entries (we'll add an appropriate version before the next release).

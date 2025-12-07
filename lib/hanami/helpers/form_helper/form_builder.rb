@@ -185,7 +185,7 @@ module Hanami
         # Yields to the given block for each element in the matching collection value, and applies
         # the base input name to all fields within the block.
         #
-        # Use this whenever generating form fields for an collection of nested fields.
+        # Use this whenever generating form fields for a collection of nested fields.
         #
         # @param name [String] the input name, also used as the base input name for all fields
         #   within the block

@@ -40,7 +40,7 @@ jobs:
           path: node_modules
           key: node-modules-${{ runner.OS }}-${{ hashFiles('package-lock.json') }}
       - name: Install NPM Modules
-        if: steps.cache-modules.outputs.cache-hit != 'true'
+        if: steps.cache-node-modules.outputs.cache-hit != 'true'
         run: npm install
       - name: Set up Node
         uses: actions/setup-node@v4
